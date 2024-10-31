@@ -1,0 +1,164 @@
+
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'SessionStateProxy' object is not callable
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'SessionStateProxy' object is not callable
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'SessionStateProxy' object is not callable
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: Expecting value: line 1 column 1 (char 0)
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance
+decision_agent_error,Exception,"General Error: Error code: 500 - {'error': {'message': 'Timed out generating response. Please try again with a shorter prompt or with `max_tokens` set to a lower value.', 'type': 'internal_error', 'param': None, 'code': 'request_timeout'}}"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: Expecting value: line 1 column 1 (char 0)
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: Expecting value: line 1 column 1 (char 0)
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: 'str' object has no attribute 'items'
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: 'OpenAI' object has no attribute 'assistants'
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+reuseagent,handle_task,Error parsing JSON response: 'Assistants' object has no attribute 'chat'
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: 'Runs' object is not callable
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: 'Run' object is not subscriptable
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+reuseagent,handle_task,Error parsing JSON response: 'AssistantStreamManager' object is not subscriptable
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+reuseagent,handle_task,Error parsing JSON response: 'Run' object is not subscriptable
+ec2_agent,handle_task,Error parsing JSON response: cannot unpack non-iterable NoneType object
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,deploy_instance
+ec2_agent,deploy_instance,require inputs from user
+ec2_agent,handle_task,Error parsing JSON response: 'EC2Agent' object has no attribute 'check_inputs'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,deploy_instance,unknown tool name
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>
+Invalid type for parameter InstanceType, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,run_instances,unknown tool name
+ec2_agent,describe_instances,require inputs from user
+ec2_agent,describe_instances,unknown tool name
+decision_agent,ec2,describe_instances to verify deployment
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified image_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'subnet_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified ami_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter ImageId, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'instance_name'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,"Error parsing JSON response: Parameter validation failed:
+Invalid type for parameter InstanceType, value: None, type: <class 'NoneType'>, valid types: <class 'str'>"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified image_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified ami_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,create_instance,"Error creating EC2 instance: An error occurred (InvalidAMIID.Malformed) when calling the RunInstances operation: Invalid id: ""ami-0abcdef1234567890"" (expecting ""ami-..."")"
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified image_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified ami_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,create_instance,Error creating EC2 instance: An error occurred (VPCIdNotSpecified) when calling the RunInstances operation: No default VPC for this user. GroupName is only supported for EC2-Classic and default VPC.
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified image_id
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance
+ec2_agent,create_instance,require inputs from user
+ec2_agent,handle_task,Error parsing JSON response: 'instance_name'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified ami_id and specified instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,create_instance,Error creating EC2 instance: An error occurred (InvalidAMIID.NotFound) when calling the RunInstances operation: The image id '[ami-06b21ccaeff8cd686]' does not exist
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,handle_task,Error parsing JSON response: 'image_id'
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+decision_agent,ec2,create_instance for the specified ami_id and instance_type
+ec2_agent,create_instance,require inputs from user
+ec2_agent,create_instance,EC2 Instance 'i-0f9b34fe34df811d8' created successfully.
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+Task_pilot_aws,help users deploy aws infra,how can i help you?
+ec2_agent,create_instance,EC2 Instance 'i-00c37797ec0304f80' created successfully.

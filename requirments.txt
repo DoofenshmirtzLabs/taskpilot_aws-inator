@@ -1,0 +1,6 @@
+langchain
+boto3
+streamlit
+pycognito
+langgraph
+openai

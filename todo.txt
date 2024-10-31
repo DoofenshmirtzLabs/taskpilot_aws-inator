@@ -1,0 +1,20 @@
+important:
+fine tune decision agent to come up with an step by step json guide to tell other agents which service to use and what tool to use 
+fine tune subagent to sort of look at user input and current state of the system to come up with correct inputs for the required tool
+use front-end to sort of take the required inputs from the user and add them to the system state and recall the agent that has requested user inputs
+   -change frontend to be able to take both required userinput from and also display catalog and taking inputs
+-update handle task for most agents
+-create an in agent eot to check if everything is done in that agent before going to eot agent
+-creating taking required user inputs function
+-aws oauth for logins configuration
+
+check if everything is working fine
+
+//*****new*******
+check reusing inputs,state_manager
+have to create handle functions for each agent along with checking inputs ,etc
+have to retrain decision agent to understand large set of input requests and return only tool name not tool task
+have to change all st.store messages (based on how reuse works)
+to get inputs from user have to include catalogs and all,yeah thats it mostly 
+draw system archi again and upload in github--done
+

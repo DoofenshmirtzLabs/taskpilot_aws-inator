@@ -1,0 +1,39 @@
+ec2 tools:
+1.create_vpc(self,CidrBlock=None)
+2.create_subnetes(self,numSubnets,vpc_id)
+3.create_security_group(self,vpc_id)
+4.create_instance(self, image_id, instance_type,**kwargs)
+5.terminate_instance(self, instance_id)
+6.describe_instances(self)
+7.create_router_tables
+8.create_internet_gateway
+
+
+s3 tools:
+1.create_bucket(self,bucket_name)
+2.upload_file(self, bucket_name, file_path)
+3.delete_object(self, bucket_name, object_key)
+4.list_buckets(self)
+
+rds tools:
+1.create_rds(db_instance_identifier,db_instance_class,engine,master_username,master_password)
+2.list_rds_instances()
+3.modify_rds_instance(db_instance_identifier,db_instance_class)
+
+lambda tools:
+1.create_function(function_name,runtime,role,handler,zip_file_path)
+
+API gateway tools:
+1.create_rest_api(api_name)
+
+cloudformation tools:
+1.create_stack(stack_name,template_body)
+
+elastic load balancer tools:
+1.create_load_balancer(name,subnets,security_groups)
+
+cloudfront tools:
+1.create_cloudfront_distribution(self,domain_name: str, s3_bucket_name: str,
+                                   viewer_protocol_policy: str = "redirect-to-https",
+                                   min_ttl: int = 3600, max_ttl: int = 86400,
+                                   default_ttl: int = 86400) -> str:

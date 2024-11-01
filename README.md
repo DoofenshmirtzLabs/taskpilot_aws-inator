@@ -1,7 +1,11 @@
 AWS Multi-Agent Infrastructure Deployment System
 Overview
 This project is a Python-based AWS infrastructure deployment system that uses a multi-agent structure to automate the creation, management, and deletion of AWS resources. Designed to simplify complex infrastructure requests, this system allows users to specify their requirements via natural language prompts. Using AWS services like EC2, S3, RDS, Lambda, API Gateway, CloudFront, CloudFormation, and Elastic Load Balancing (ELB), the system can deploy multiple infrastructure components in a single operation.
-![{5709AF97-CA95-4C21-903A-C53802A23754}](https://github.com/user-attachments/assets/ef3b9c28-8c5d-4337-923e-32b38afd6840)
+System Archi:
+![{204AE712-ECF7-4DC5-9E09-A9D330D506C0}](https://github.com/user-attachments/assets/3d996dcb-a10d-434e-b01d-f3104af6458c)
+
+
+
 This project leverages:
 
 LangChain for language model management,
@@ -22,8 +26,16 @@ Lambda: Deploy serverless functions.
 API Gateway: Set up REST APIs.
 CloudFormation: Deploy entire stacks based on JSON or YAML templates.
 Elastic Load Balancer (ELB): Manage traffic with load balancing.
+Output:
+
+![{1DE77D53-1037-4532-B11A-63610ED3869D}](https://github.com/user-attachments/assets/f5e22427-b3ca-4172-bd10-ec295d89f17a)
+1)got bored after this,fine tuned model is not good enough,ending the project GG.
+
 CloudFront: Set up content distribution with custom settings.
 Example Usage
 "Deploy all infrastructure required for my web app with an EC2 web server, S3 storage, RDS database, and ELB load balancing.
-//learning from the project:
+#future scope
 1)fine tuned models are too unstable for production
+2)bigger finetuning dataset
+3)alot of testing
+4)include other aws products 
